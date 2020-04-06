@@ -18,7 +18,7 @@ public class BrowserStackLocalTest {
     public void setUp() throws Exception {
         l = new Local();
         options = new HashMap<String, String>();
-        options.put("key", System.getenv("BROWSERSTACK_ACCESS_KEY"));
+        options.put("key", "ce1SXdV1gw9MT1Fx4Gn4");
     }
 
     @Test
